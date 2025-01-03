@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.jetpack.onetimenotification"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.jetpack.onetimenotification"
@@ -51,6 +51,7 @@ dependencies {
     implementation(libs.androidx.material3)
     implementation(libs.androidx.work.runtime)
     implementation("com.loopj.android:android-async-http:1.4.10")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.5")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
